@@ -1,34 +1,36 @@
 {
-  "categories": [
+  "Pizzas": [
     {
-      "name": "Pets",
+      "name": "Hawaian",
       "_id": 3
     },
     {
-      "name": "Things",
+      "name": "Supreme",
       "_id": 4
     },
     {
-      "name": "Cats",
+      "name": "Peperoni",
       "_id": 5
     },
     {
+      "name": "Meat Lovers",
       "_id": 6
     },
     {
+      "name": "Cheese",
       "_id": 7
     },
     {
-      "name": "Kali",
+      "name": "Veggie",
       "_id": 8
     }
   ],
-  "products": [
+  "SushiRolls": [
     {
       "_id": 1,
-      "category": "Electronics",
-      "name": "Radio",
-      "price": 15.99
+      "category": "Rolls",
+      "name": "Rainbow Roll",
+      "price": 7.50S
     }
   ]
 }

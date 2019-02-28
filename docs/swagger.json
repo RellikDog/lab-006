@@ -1,0 +1,79 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "api to finish lab 6",
+    "version": "1.0.0",
+    "title": "lab-006"
+  },
+  "paths": {
+    "/pizzas": {
+      "get": {
+        "description": "get all pizzas",
+        "responses": {
+          "200": {
+            "description": "returned a list of pizzas",
+            "schema": {
+              "$ref": ""
+            }
+          }
+        }
+      }
+    },
+    "": {
+      "parameters": [
+        {
+          "in": "",
+          "name": "",
+          "required": null,
+          "type": ""
+        }
+      ],
+      "/SushiRolls": {
+        "description": "get all sushi rolls",
+        "responses": {
+          "200": {
+            "description": "got all rolls",
+            "schema": {
+              "$ref": "#/definitions/getOne"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "getAll": {
+      "type": "object",
+      "items": {
+        "type": "object",
+        "properties": {}
+      },
+      "example": [
+        {
+          "name": "Category 1",
+          "id": 1
+        },
+        {
+          "name": "Category 2",
+          "id": 2
+        }
+      ]
+    },
+    "getOne": {
+      "type": "object",
+      "items": {
+        "type": "object",
+        "properties": {}
+      },
+      "example": {
+        "name": "Category Name",
+        "id": 1
+      }
+    }
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ]
+}
